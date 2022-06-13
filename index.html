@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Matrices Calculator </h1>
+    <form  onsubmit="start() ; return false ;" id="formA">
+       <div id="f1Input">
+       <input type="number" id="matGen1" placeholder="Enter value : " class="f1I" autofocus >
+       <input type="number" id="matGen2" placeholder="Enter value : " autofocus  class="f1I">
+       
+     <select name="" id="checksign" required aria-placeholder="ssss" class="f1I">
+     <option value="select"> Select Operator </option>
+     <option value="+"> + </option>
+     
+     </select>
+   </div>    
+     <br>
+
+     <button type="submit" id="gMb">START</button>
+
+   </form>
+
+
+   
+   <form action="" onsubmit="lets(); return false" id="form2">
+    <div id="matInput">
+      <div id="mat1"  class="f2I" > </div>
+
+      <div> <h1 id="dropDown" class="sign"></h1> </div>
+
+      <div id="mat2" class="f2I"></div>
+
+      <div> <h1 id="equal" class="sign"></h1> </div>
+
+      <div id="result" class="f2I"></div>
+    </div>
+    <div id="calculate"></div>
+      
+   </form>
+
+   <script src="app.js"></script>
+</body>
+</html>

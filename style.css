@@ -1,0 +1,39 @@
+/* #formA{
+    text-align: center;
+} */
+#f1Input{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.f1I{
+    margin: 10px;
+}
+#matInput{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.f2I{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.sign{
+    margin: 30px ;
+}
+#calculate{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: aqua;
+    color: black;
+}
